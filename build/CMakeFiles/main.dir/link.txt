@@ -1,0 +1,1 @@
+g++    -rdynamic CMakeFiles/main.dir/main.cc.o  -o bin/main 

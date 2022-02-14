@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chenhao/AspectProgram/aspect.hpp
+memory
+-
+
+/home/chenhao/AspectProgram/logaspect.hpp
+iostream
+-
+
+/home/chenhao/AspectProgram/main.cc
+aspect.hpp
+/home/chenhao/AspectProgram/aspect.hpp
+logaspect.hpp
+/home/chenhao/AspectProgram/logaspect.hpp
+timeaspect.hpp
+/home/chenhao/AspectProgram/timeaspect.hpp
+
+/home/chenhao/AspectProgram/timeaspect.hpp
+aspect.hpp
+/home/chenhao/AspectProgram/aspect.hpp
+iostream
+-
+chrono
+-
+
