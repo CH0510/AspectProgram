@@ -11,7 +11,7 @@ public:
 private:
 };
 
-class X : public IX {
+class X {
 public:
   void g() {
     std::cout << "it is a test." << std::endl;
@@ -19,7 +19,7 @@ public:
 };
 
 void TestAop() {
-  std::shared_ptr<IX> p(new X());
+  std::shared_ptr<X> p(new X());
   MakeAspect<TimeElapsedAspect>(p.get())->g();
   MakeAspect<LoggingAspect>(p.get())->g();
 }

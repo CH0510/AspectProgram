@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chenhao/AspectProgram/Compose/aspect.hpp
+functional
+-
+
+/home/chenhao/AspectProgram/Compose/main.cc
+aspect.hpp
+/home/chenhao/AspectProgram/Compose/aspect.hpp
+iostream
+-
+functional
+-
+utility
+-
+

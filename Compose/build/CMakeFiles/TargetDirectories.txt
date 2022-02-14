@@ -1,0 +1,3 @@
+/home/chenhao/AspectProgram/Compose/build/CMakeFiles/rebuild_cache.dir
+/home/chenhao/AspectProgram/Compose/build/CMakeFiles/edit_cache.dir
+/home/chenhao/AspectProgram/Compose/build/CMakeFiles/main.dir
